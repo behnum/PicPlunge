@@ -1,5 +1,6 @@
 import fetchImages from '@/lib/fetchImages'
 import type { ImagesResults } from '@/models/Images'
+import ImgContainer from './ImgContainer'
 
 export default async function Gallery() {
   const url = 'https://api.pexels.com/v1/curated'
@@ -12,12 +13,10 @@ export default async function Gallery() {
     )
 
   return (
-    <section>
-      <ul>
-        {images.photos.map(photo => (
-          <li key={photo.id}>{photo.src.large}</li>
-        ))}
-      </ul>
+    <section className='px-2 my-3 grid gap-2 grid-cols-gallery'>
+      {images.photos.map(photo => (
+        <ImgContainer key={photo.id} photo={photo} />
+      ))}
     </section>
   )
 }
