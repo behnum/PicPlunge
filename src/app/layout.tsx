@@ -2,6 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from './components/Navbar'
 
+export const revalidate = 60 * 60 * 24 // 24 hours
+
 export const metadata: Metadata = {
   title: 'PicPlunge',
   description: 'Where Every Click is a Journey and Every Image is a Story.',
