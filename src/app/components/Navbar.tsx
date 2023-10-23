@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className='flex flex-col gap-4 sm:flex-row sm:justify-between items-center p-4 font-bold max-w-6xl mx-auto text-stone-200'>
-        <h1 className='text-2xl sm:text-xl text-center whitespace-nowrap text-red-500'>
+        <h1 className='text-2xl sm:text-xl text-center whitespace-nowrap text-green-400'>
           <Link href='/'>PicPlunge</Link>
         </h1>
         <Search />
