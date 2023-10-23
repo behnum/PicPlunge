@@ -23,7 +23,7 @@ export default function Search() {
         value={search}
         onChange={e => setSearch(e.target.value)}
         className={
-          'bg-white p-2 w-[250px] sm:w-80 text-xl rounded-md text-black focus:outline-none opacity-75'
+          'bg-black p-2 w-[250px] sm:w-60 text-sm font-normal rounded-md text-white focus:outline-white focus:outline-dotted focus:opacity-100 outline-dashed opacity-50'
         }
         placeholder='Search for anything...'
       />
