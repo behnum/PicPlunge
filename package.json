@@ -1,13 +1,7 @@
 {
-  "name": "nn-img-gallery",
+  "name": "picplunge",
+  "description": "An Image Gallery based on Pexels API and Next.js",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
@@ -25,21 +19,14 @@
     "typescript": "5.1.6",
     "zod": "^3.21.4"
   },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": true,
-    "htmlWhitespaceSensitivity": "css",
-    "insertPragma": false,
-    "jsxBracketSameLine": false,
-    "jsxSingleQuote": true,
-    "printWidth": 80,
-    "proseWrap": "always",
-    "quoteProps": "as-needed",
-    "requirePragma": false,
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "all",
-    "useTabs": false
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/behnum/PicPlunge/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   }
 }
