@@ -1,6 +1,6 @@
 # PicPlunge
 
-Dive into a visual adventure with this Next.js Image Gallery
+An Image Gallery based on Pexels API and Next.js.
 
 ## Stack
 
@@ -9,6 +9,5 @@ Dive into a visual adventure with this Next.js Image Gallery
 - Plaiceholder
 - PEXELS API
 - TailwindCSS
--
 
 Courtesy of NextJS, PicPlunge is optimizing for different breakpoints on its own, so you don't have to worry about it.
